@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'http://localhost:8088/api',
+  //baseURL: 'http://localhost:8088/api',
+  baseURL: 'http://45.133.18.127/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
@@ -16,11 +17,11 @@ api.interceptors.request.use(
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
-    
+
     // Add Accept-Language header
     const language = localStorage.getItem('language') || 'en';
     config.headers['Accept-Language'] = language;
-    
+
     return config;
   },
   (error) => {
