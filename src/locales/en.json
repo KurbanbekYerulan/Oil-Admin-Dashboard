@@ -1,0 +1,139 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "branches": "Branches",
+    "services": "Services",
+    "countries": "Countries",
+    "profile": "Profile"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "actions": "Actions",
+    "back": "Back",
+    "view": "View",
+    "creating": "Creating...",
+    "updating": "Updating..."
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "phone": "Phone Number",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?"
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Manage your account settings and profile information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "role": "Role",
+    "updateProfile": "Update Profile",
+    "updating": "Updating...",
+    "accountSummary": "Account Summary",
+    "memberSince": "Member since",
+    "profileInformation": "Profile Information",
+    "roles": {
+      "owner": "Business Owner",
+      "manager": "Manager",
+      "employee": "Employee"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome back! Here's what's happening with your business today.",
+    "newOrder": "New Order",
+    "totalRevenue": "Total Revenue",
+    "totalCustomers": "Total Customers",
+    "totalOrders": "Total Orders",
+    "pendingOrders": "Pending Orders",
+    "fromLastMonth": "from last month",
+    "revenueOverview": "Revenue Overview",
+    "ordersOverview": "Orders Overview",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "last3Months": "Last 3 months",
+    "chartPlaceholder": "Chart will be displayed here",
+    "revenueDataViz": "Revenue data visualization",
+    "ordersDataViz": "Orders data visualization",
+    "recentOrders": "Recent Orders",
+    "viewAll": "View all",
+    "quickActions": "Quick Actions",
+    "createNewOrder": "Create New Order",
+    "addNewCustomer": "Add New Customer",
+    "addNewService": "Add New Service",
+    "viewSchedule": "View Schedule",
+    "orderStatus": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "pending": "Pending"
+    }
+  },
+  "countries": {
+    "title": "Countries",
+    "subtitle": "Manage countries and their multilingual names",
+    "addCountry": "Add Country",
+    "createTitle": "Create Country",
+    "createSubtitle": "Add a new country with multilingual support",
+    "editTitle": "Edit Country",
+    "editSubtitle": "Update country information",
+    "detailsTitle": "Country Details",
+    "detailsSubtitle": "View detailed information about this country",
+    "name": "Name",
+    "code": "Code",
+    "nameEn": "Name (English)",
+    "nameRu": "Name (Russian)",
+    "nameKk": "Name (Kazakh)",
+    "currentLanguageName": "Name (Current Language)",
+    "codePlaceholder": "e.g., USA, KZ, RU",
+    "namePlaceholder": "Enter country name",
+    "searchPlaceholder": "Search countries...",
+    "noCountries": "No countries found",
+    "noCountriesDescription": "Get started by creating your first country.",
+    "addFirstCountry": "Add First Country",
+    "notFound": "Country not found",
+    "notFoundDescription": "The country you're looking for doesn't exist or has been deleted.",
+    "backToList": "Back to Countries",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "confirmDelete": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+    "errors": {
+      "nameRequired": "Country name is required"
+    }
+  },
+  "notifications": {
+    "success": {
+      "created": "Successfully created",
+      "updated": "Successfully updated",
+      "deleted": "Successfully deleted"
+    },
+    "error": {
+      "createFailed": "Failed to create",
+      "updateFailed": "Failed to update",
+      "deleteFailed": "Failed to delete",
+      "loadFailed": "Failed to load data",
+      "networkError": "Network error occurred",
+      "serverError": "Server error occurred"
+    },
+    "messages": {
+      "countryCreated": "Country has been created successfully",
+      "countryUpdated": "Country has been updated successfully",
+      "countryDeleted": "Country has been deleted successfully",
+      "countryCreateFailed": "Failed to create country. Please try again.",
+      "countryUpdateFailed": "Failed to update country. Please try again.",
+      "countryDeleteFailed": "Failed to delete country. Please try again.",
+      "countryLoadFailed": "Failed to load countries. Please refresh the page."
+    }
+  }
+}

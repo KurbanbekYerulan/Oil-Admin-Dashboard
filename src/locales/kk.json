@@ -1,0 +1,139 @@
+{
+  "navigation": {
+    "dashboard": "Басқару панелі",
+    "employees": "Қызметкерлер",
+    "branches": "Филиалдар",
+    "services": "Қызметтер",
+    "countries": "Елдер",
+    "profile": "Профиль"
+  },
+  "common": {
+    "loading": "Жүктелуде...",
+    "save": "Сақтау",
+    "cancel": "Болдырмау",
+    "edit": "Өңдеу",
+    "delete": "Жою",
+    "create": "Жасау",
+    "update": "Жаңарту",
+    "search": "Іздеу",
+    "filter": "Сүзгі",
+    "actions": "Әрекеттер",
+    "back": "Артқа",
+    "view": "Көру",
+    "creating": "Жасалуда...",
+    "updating": "Жаңартылуда..."
+  },
+  "auth": {
+    "login": "Кіру",
+    "logout": "Шығу",
+    "phone": "Телефон нөмірі",
+    "password": "Құпия сөз",
+    "rememberMe": "Мені есте сақта",
+    "forgotPassword": "Құпия сөзді ұмыттыңыз ба?"
+  },
+  "profile": {
+    "title": "Профиль",
+    "subtitle": "Тіркелгі параметрлері мен профиль ақпаратын басқарыңыз",
+    "fullName": "Толық аты",
+    "email": "Электрондық пошта",
+    "phone": "Телефон",
+    "company": "Компания",
+    "role": "Рөл",
+    "updateProfile": "Профильді жаңарту",
+    "updating": "Жаңартылуда...",
+    "accountSummary": "Тіркелгі қорытындысы",
+    "memberSince": "Мүше болғаннан бері",
+    "profileInformation": "Профиль ақпараты",
+    "roles": {
+      "owner": "Бизнес иесі",
+      "manager": "Менеджер",
+      "employee": "Қызметкер"
+    }
+  },
+  "dashboard": {
+    "title": "Басқару панелі",
+    "subtitle": "Қош келдіңіз! Міне, бүгін сіздің бизнесіңізде не болып жатқаны.",
+    "newOrder": "Жаңа тапсырыс",
+    "totalRevenue": "Жалпы кіріс",
+    "totalCustomers": "Жалпы клиенттер",
+    "totalOrders": "Жалпы тапсырыстар",
+    "pendingOrders": "Күтудегі тапсырыстар",
+    "fromLastMonth": "өткен айдан",
+    "revenueOverview": "Кіріс шолуы",
+    "ordersOverview": "Тапсырыстар шолуы",
+    "last7Days": "Соңғы 7 күн",
+    "last30Days": "Соңғы 30 күн",
+    "last3Months": "Соңғы 3 ай",
+    "chartPlaceholder": "Мұнда график көрсетіледі",
+    "revenueDataViz": "Кіріс деректерін көрсету",
+    "ordersDataViz": "Тапсырыс деректерін көрсету",
+    "recentOrders": "Соңғы тапсырыстар",
+    "viewAll": "Барлығын көру",
+    "quickActions": "Жылдам әрекеттер",
+    "createNewOrder": "Жаңа тапсырыс жасау",
+    "addNewCustomer": "Жаңа клиент қосу",
+    "addNewService": "Жаңа қызмет қосу",
+    "viewSchedule": "Кесте көру",
+    "orderStatus": {
+      "completed": "Аяқталды",
+      "inProgress": "Жүріп жатыр",
+      "pending": "Күтуде"
+    }
+  },
+  "countries": {
+    "title": "Елдер",
+    "subtitle": "Елдерді және олардың көптілдік атауларын басқару",
+    "addCountry": "Ел қосу",
+    "createTitle": "Ел жасау",
+    "createSubtitle": "Көптілдік қолдауы бар жаңа ел қосу",
+    "editTitle": "Елді өңдеу",
+    "editSubtitle": "Ел туралы ақпаратты жаңарту",
+    "detailsTitle": "Ел туралы толық ақпарат",
+    "detailsSubtitle": "Ел туралы толық ақпаратты көру",
+    "name": "Атауы",
+    "code": "Коды",
+    "nameEn": "Атауы (ағылшынша)",
+    "nameRu": "Атауы (орысша)",
+    "nameKk": "Атауы (қазақша)",
+    "currentLanguageName": "Атауы (ағымдағы тіл)",
+    "codePlaceholder": "мысалы, USA, KZ, RU",
+    "namePlaceholder": "Ел атауын енгізіңіз",
+    "searchPlaceholder": "Елдерді іздеу...",
+    "noCountries": "Елдер табылмады",
+    "noCountriesDescription": "Бірінші елді жасаудан бастаңыз.",
+    "addFirstCountry": "Бірінші елді қосу",
+    "notFound": "Ел табылмады",
+    "notFoundDescription": "Сіз іздеп жатқан ел жоқ немесе жойылған.",
+    "backToList": "Елдер тізіміне оралу",
+    "createdAt": "Жасалған",
+    "updatedAt": "Жаңартылған",
+    "confirmDelete": "Сіз \"{name}\" елін жойғыңыз келе ме? Бұл әрекетті болдырмауға болмайды.",
+    "errors": {
+      "nameRequired": "Ел атауы міндетті"
+    }
+  },
+  "notifications": {
+    "success": {
+      "created": "Сәтті жасалды",
+      "updated": "Сәтті жаңартылды",
+      "deleted": "Сәтті жойылды"
+    },
+    "error": {
+      "createFailed": "Жасау сәтсіз",
+      "updateFailed": "Жаңарту сәтсіз",
+      "deleteFailed": "Жою сәтсіз",
+      "loadFailed": "Деректерді жүктеу сәтсіз",
+      "networkError": "Желі қатесі орын алды",
+      "serverError": "Сервер қатесі орын алды"
+    },
+    "messages": {
+      "countryCreated": "Ел сәтті жасалды",
+      "countryUpdated": "Ел сәтті жаңартылды",
+      "countryDeleted": "Ел сәтті жойылды",
+      "countryCreateFailed": "Елді жасау сәтсіз. Қайталап көріңіз.",
+      "countryUpdateFailed": "Елді жаңарту сәтсіз. Қайталап көріңіз.",
+      "countryDeleteFailed": "Елді жою сәтсіз. Қайталап көріңіз.",
+      "countryLoadFailed": "Елдерді жүктеу сәтсіз. Бетті жаңартыңыз."
+    }
+  }
+}

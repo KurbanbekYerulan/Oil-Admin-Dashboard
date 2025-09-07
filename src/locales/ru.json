@@ -1,0 +1,139 @@
+{
+  "navigation": {
+    "dashboard": "Панель управления",
+    "employees": "Сотрудники",
+    "branches": "Филиалы",
+    "services": "Услуги",
+    "countries": "Страны",
+    "profile": "Профиль"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "create": "Создать",
+    "update": "Обновить",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "actions": "Действия",
+    "back": "Назад",
+    "view": "Просмотр",
+    "creating": "Создание...",
+    "updating": "Обновление..."
+  },
+  "auth": {
+    "login": "Войти",
+    "logout": "Выйти",
+    "phone": "Номер телефона",
+    "password": "Пароль",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?"
+  },
+  "profile": {
+    "title": "Профиль",
+    "subtitle": "Управляйте настройками аккаунта и информацией профиля",
+    "fullName": "Полное имя",
+    "email": "Электронная почта",
+    "phone": "Телефон",
+    "company": "Компания",
+    "role": "Роль",
+    "updateProfile": "Обновить профиль",
+    "updating": "Обновление...",
+    "accountSummary": "Сводка аккаунта",
+    "memberSince": "Участник с",
+    "profileInformation": "Информация профиля",
+    "roles": {
+      "owner": "Владелец бизнеса",
+      "manager": "Менеджер",
+      "employee": "Сотрудник"
+    }
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "subtitle": "Добро пожаловать! Вот что происходит с вашим бизнесом сегодня.",
+    "newOrder": "Новый заказ",
+    "totalRevenue": "Общий доход",
+    "totalCustomers": "Всего клиентов",
+    "totalOrders": "Всего заказов",
+    "pendingOrders": "Ожидающие заказы",
+    "fromLastMonth": "с прошлого месяца",
+    "revenueOverview": "Обзор доходов",
+    "ordersOverview": "Обзор заказов",
+    "last7Days": "Последние 7 дней",
+    "last30Days": "Последние 30 дней",
+    "last3Months": "Последние 3 месяца",
+    "chartPlaceholder": "Здесь будет отображаться график",
+    "revenueDataViz": "Визуализация данных о доходах",
+    "ordersDataViz": "Визуализация данных о заказах",
+    "recentOrders": "Недавние заказы",
+    "viewAll": "Показать все",
+    "quickActions": "Быстрые действия",
+    "createNewOrder": "Создать новый заказ",
+    "addNewCustomer": "Добавить нового клиента",
+    "addNewService": "Добавить новую услугу",
+    "viewSchedule": "Просмотр расписания",
+    "orderStatus": {
+      "completed": "Завершено",
+      "inProgress": "В процессе",
+      "pending": "Ожидает"
+    }
+  },
+  "countries": {
+    "title": "Страны",
+    "subtitle": "Управление странами и их многоязычными названиями",
+    "addCountry": "Добавить страну",
+    "createTitle": "Создать страну",
+    "createSubtitle": "Добавить новую страну с многоязычной поддержкой",
+    "editTitle": "Редактировать страну",
+    "editSubtitle": "Обновить информацию о стране",
+    "detailsTitle": "Детали страны",
+    "detailsSubtitle": "Просмотр подробной информации о стране",
+    "name": "Название",
+    "code": "Код",
+    "nameEn": "Название (английский)",
+    "nameRu": "Название (русский)",
+    "nameKk": "Название (казахский)",
+    "currentLanguageName": "Название (текущий язык)",
+    "codePlaceholder": "например, USA, KZ, RU",
+    "namePlaceholder": "Введите название страны",
+    "searchPlaceholder": "Поиск стран...",
+    "noCountries": "Страны не найдены",
+    "noCountriesDescription": "Начните с создания первой страны.",
+    "addFirstCountry": "Добавить первую страну",
+    "notFound": "Страна не найдена",
+    "notFoundDescription": "Страна, которую вы ищете, не существует или была удалена.",
+    "backToList": "Вернуться к списку стран",
+    "createdAt": "Создано",
+    "updatedAt": "Обновлено",
+    "confirmDelete": "Вы уверены, что хотите удалить \"{name}\"? Это действие нельзя отменить.",
+    "errors": {
+      "nameRequired": "Название страны обязательно"
+    }
+  },
+  "notifications": {
+    "success": {
+      "created": "Успешно создано",
+      "updated": "Успешно обновлено",
+      "deleted": "Успешно удалено"
+    },
+    "error": {
+      "createFailed": "Не удалось создать",
+      "updateFailed": "Не удалось обновить",
+      "deleteFailed": "Не удалось удалить",
+      "loadFailed": "Не удалось загрузить данные",
+      "networkError": "Произошла сетевая ошибка",
+      "serverError": "Произошла ошибка сервера"
+    },
+    "messages": {
+      "countryCreated": "Страна была успешно создана",
+      "countryUpdated": "Страна была успешно обновлена",
+      "countryDeleted": "Страна была успешно удалена",
+      "countryCreateFailed": "Не удалось создать страну. Попробуйте еще раз.",
+      "countryUpdateFailed": "Не удалось обновить страну. Попробуйте еще раз.",
+      "countryDeleteFailed": "Не удалось удалить страну. Попробуйте еще раз.",
+      "countryLoadFailed": "Не удалось загрузить страны. Обновите страницу."
+    }
+  }
+}
